@@ -69,6 +69,8 @@ export default {
   font-size: 1.1em;
   font-style: normal;
   margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+
 }
 .btn-close {
   width: 2em;

@@ -121,6 +121,11 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: 'Vela Sans';
+  src: url("../src/assets/VelaSans/Static/TTF/VelaSans-Regular.ttf") format('ttf');
+  font-weight: 400;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 *{
   padding: 0;
@@ -128,7 +133,7 @@ export default {
   box-sizing: border-box;
   max-width: 1600px;
   max-height: 900px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Vela Sans', sans-serif;
 }
 body {
   display: flex;
@@ -143,6 +148,7 @@ body {
   font-size: 1.5em;
   font-style: normal;
   padding-left: 1.8em;
+  font-family: 'Montserrat', sans-serif;
 }
 .btn-add {
   width: 4em;
